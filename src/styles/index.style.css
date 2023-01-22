@@ -6,23 +6,19 @@
 
 @layer base {
   body {
-    background-color: hsl(225, 100%, 94%);
+    background-color: #e0e8ff;
     background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
-    font-size: 16px;
+    background-image: url("../assets/images/pattern-background-mobile.svg");
     font-family: "Red Hat Display", sans-serif;
-    justify-content: center;
+    background-size: contain;
+    /* background-position: top; */
+    /* font-size: 16px; */
+    /* justify-content: center; */
   }
 
   @media (min-width: 720px) {
     body {
       background-image: url("../assets/images/pattern-background-desktop.svg");
-    }
-  }
-  @media (min-width: 375px) {
-    body {
-      background-image: url("../assets/images/pattern-background-mobile.svg");
     }
   }
 }

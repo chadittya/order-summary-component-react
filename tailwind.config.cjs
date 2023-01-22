@@ -11,7 +11,7 @@ module.exports = {
         "cust-Dark-blue": "hsl(223, 47%, 23%)",
       },
       screens: {
-        mobile: "375px",
+        mobile: "320px",
       },
     },
   },
